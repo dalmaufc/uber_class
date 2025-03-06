@@ -7,7 +7,7 @@ st.title("Chart 1: Uber Data Analysis")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/uber-data.zip")  # Modify to correct CSV path
+    df = pd.read_csv("../data/uber-data.zip")  # Modify to correct CSV path
     return df
 
 df = load_data()

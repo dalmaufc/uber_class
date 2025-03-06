@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.title("Chart 3: Geographic Visualization")
 
-df = pd.read_csv("data/uber-data.zip")
+df = pd.read_csv("../data/uber-data.zip")
 
 # Example chart
 fig = px.scatter_mapbox(df, lat="lat", lon="lon", zoom=10)
